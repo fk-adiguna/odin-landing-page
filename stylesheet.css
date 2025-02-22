@@ -1,0 +1,48 @@
+.border {
+    border: 2px solid red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.logo-container p, .header-link-container p {
+    margin: 0;
+}
+
+.header .logo-container, .header .header-link-container {
+    flex-basis: 50%;
+}
+
+.header {
+    height: 10%;
+    flex-wrap: nowrap;
+}
+
+.section.dark {
+    background-color: #1F2937;
+}
+
+.section.mid {
+    background-color: #E5E7EB;
+}
+
+.section {
+    height: 200px;
+}
+
+.one,.two {
+    height: 250px;
+}
+
+.three {
+    height: 200px;
+}
+
+.four {
+    height: 150px;
+}
+
+.five {
+    height: 75px;
+}
