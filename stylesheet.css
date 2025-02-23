@@ -86,6 +86,44 @@ button {
     margin: 10px 0;
 }
 
+.two h2 {
+    color: #1F2937;
+    size: 36px;
+    font-weight: 900;
+
+}
+
+.info-container {
+    flex: 1 1 auto;
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.info {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.info .image-border {
+    aspect-ratio: 1 / 1;
+    border: 3px solid #3882F6;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    flex: auto
+}
+
+.info p {
+    color:#1F2937;
+    margin-top: 8px;
+    text-align: center;
+    flex: auto
+}
+
 .section.dark {
     background-color: #1F2937;
 }
@@ -105,7 +143,9 @@ button {
 }
 
 .two {
-    height: 250px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 
