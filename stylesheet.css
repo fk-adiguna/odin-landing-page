@@ -124,6 +124,25 @@ button {
     flex: auto
 }
 
+.three .quote {
+    margin: 100px 0;
+}
+
+.three p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 10px
+}
+
+.three .quoter {
+    margin: 5px 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: right;
+}
+
 .section.dark {
     background-color: #1F2937;
 }
@@ -151,7 +170,7 @@ button {
 
 
 .three {
-    height: 200px;
+    height: auto;
 }
 
 .four {
